@@ -16,7 +16,7 @@ const router = createBrowserRouter([
       {index: true, element: <Videos />},
       {path:'/videos', element: <Videos />},
       // 검색한 키워드의 비디오목록
-      {path:'/videos/:keyword', element: <Videos />},
+      {path:'/videos/:keyword', element: <Videos  />},
       {path:'/videos/watch/:videoId', element: <VideoDetail />}
     ]
   }
